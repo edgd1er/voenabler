@@ -3,14 +3,20 @@
 I'm updating it whenever possible for my OP5. I have no other devices to validate the module. 
 
 ## VoEnabler
-This module enables the VoLTE and VoWiFi options by editing `build.prop`.
+This module enables the VoLTE & VoWiFi & RCS options by editing `build.prop`.
 
 **Important:** VoLTE/VoWiFi will not work if your carrier doesn't support it, even if you install this module.
+
+## Devices
+<br>OnePlus 5
+<br>Redmi Note 7 Pro
+<br>
 
 XDA Thread: [here](https://forum.xda-developers.com/apps/magisk/module-v4-volte-enabler-t3649613)
 <br>Guide to **_maybe_** make this work: [here](https://forum.xda-developers.com/oneplus-5t/how-to/guide-volte-vowifi-german-carriers-t3817542)
 
 ## What does this module change?
+<br>persist.data.iwlan.enable=true
 <br>persist.dbg.ims_volte_enable=1 
 <br>persist.dbg.volte_avail_ovr=1 
 <br>persist.dbg.vt_avail_ovr=1
@@ -35,6 +41,7 @@ XDA Thread: [here](https://forum.xda-developers.com/apps/magisk/module-v4-volte-
 <br>persist.rcs.supported=1
 
 ## Changelog
+<br>2020-04-04 (v1.8): Update Module & Test devices
 <br>2020-04-04 (v1.7): Update VoLTE & WoWIFI & RCS 
 <br>2020-02-02 (v1.6): Update template for Magisk v20.x
 <br>2019-04-05 (v1.5): Update template for Magisk v19.x

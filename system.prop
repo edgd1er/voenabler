@@ -6,7 +6,7 @@ persist.dbg.wfc_avail_ovr=1
 
 # Data Options
 # Commented this line out as it was reported to break WiFi calling on some carriers. Not even sure if it's required to begin with.
-#persist.data.iwlan.enable=true
+persist.data.iwlan.enable=true
 persist.data.iwlan=1
 persist.data.iwlan.ipsec.ap=1
 
